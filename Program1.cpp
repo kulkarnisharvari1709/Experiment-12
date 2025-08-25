@@ -1,4 +1,3 @@
-// Example: defining the constructor inside the class
 #include<iostream>
 using namespace std;
 class student
