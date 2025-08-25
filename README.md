@@ -119,3 +119,32 @@ Both objects then display their values using the display() method.
 ✅ Conclusion:
 
 This program successfully demonstrates how a copy constructor works in C++. It shows how one object (manjeet) can be initialized with the values of another object (s) at the time of creation. Understanding copy constructors is essential for efficient memory management and correct behavior in object-oriented programs involving complex data.
+
+Program 5:
+AIM:
+
+To write a C++ program that demonstrates the use of a parameterized constructor to compare two numbers and display the greater one.
+
+Software Used:
+
+VS Code
+
+Theory:
+
+In C++, a parameterized constructor is a constructor that takes arguments and allows the programmer to initialize objects with specific values at the time of their creation.
+
+Explanation of the Program:
+
+A class Num is defined with a parameterized constructor that takes two integers (c and d).
+
+Inside the constructor, a simple if-else condition checks which number is greater and displays it.
+
+In the main() function, an object n1 is created using the statement Num n1(4, 3);. This automatically calls the parameterized constructor with values 4 and 3.
+
+The constructor executes the comparison and prints the greater number.
+
+This program does not use any data members — it only uses constructor parameters for immediate logic execution.
+
+✅ Conclusion:
+
+This program demonstrates the use of a parameterized constructor to perform operations based on values passed during object creation. It shows how constructors can not only initialize objects but also be used to embed logic that runs when the object is created.
