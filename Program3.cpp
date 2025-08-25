@@ -1,6 +1,3 @@
-//Exp-12
-
-//Program-1
 #include<iostream>
 #include<string>
 usingnamespacestd;
