@@ -1,3 +1,4 @@
+
 🔹 Program 1: Constructor Defined Inside the Class
 📝 AIM:
 
@@ -78,3 +79,43 @@ When an object d1 of the class Data is created in the main() function, the const
 ✅ Conclusion:
 
 This program demonstrates how a constructor defined inside a class can be used to automatically initialize object data at the time of creation. It reinforces the basic understanding of constructors and object initialization in C++.
+
+Program 4: 
+AIM:
+To write a C++ program that demonstrates the use of a copy constructor by copying data from one object to another.
+
+Software Used:
+
+VS Code
+
+Theory:
+
+In C++, a copy constructor is a special constructor used to create a new object as a copy of an existing object. It is particularly useful when:
+
+Objects need to be passed by value.
+
+We want to manually control how the data is copied, especially for pointer or array members.
+
+Key Concepts in the Program:
+
+The class student contains:
+
+Private data members: roll number, name (character array), and fee.
+
+A parameterized constructor to initialize object data.
+
+A copy constructor to copy values from another student object.
+
+A display() function to output the data.
+
+In main():
+
+Object s is created using the parameterized constructor.
+
+Object manjeet is created using the copy constructor, which copies all values from s.
+
+Both objects then display their values using the display() method.
+
+✅ Conclusion:
+
+This program successfully demonstrates how a copy constructor works in C++. It shows how one object (manjeet) can be initialized with the values of another object (s) at the time of creation. Understanding copy constructors is essential for efficient memory management and correct behavior in object-oriented programs involving complex data.
